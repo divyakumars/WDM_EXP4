@@ -48,21 +48,12 @@ plt.xlabel('Age Groups')
 plt.ylabel('Number of Visitors')
 plt.title('Visitor Distribution Across Age Groups')
 plt.show()
+```
 
 
-### Output:
 
 ### Visualization:
 ```python
-# Create a list to store counts of visitors in each age group
-/*WRITE YOUR CODE HERE
-
-# Count visitors in each age group
-/*WRITE YOUR CODE HERE
-    
-# Define age group labels and plot a bar chart
-/*WRITE YOUR CODE HERE
-
 plt.figure(figsize=(8, 6))
 plt.bar(age_group_labels, visitor_counts, color='skyblue')
 plt.xlabel('Age Groups')
@@ -78,3 +69,4 @@ plt.show()
 
 
 ### Result:
+Thus the cluster and visitor segmentation for navigation patterns was implemented successfully in python.
