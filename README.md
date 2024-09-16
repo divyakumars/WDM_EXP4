@@ -40,15 +40,9 @@ for group,condition in age_groups.items():
     visitors_in_group=visitor_df[condition]
     visitor_counts.append(len(visitors_in_group))
     
-# Define age group labels and plot a bar chart
-age_group_labels=list(age_groups.keys())
-plt.figure(figsize=(8, 6))
-plt.bar(age_group_labels, visitor_counts, color='pink')
-plt.xlabel('Age Groups')
-plt.ylabel('Number of Visitors')
-plt.title('Visitor Distribution Across Age Groups')
-plt.show()
 ```
+### Output:
+   ![image](https://github.com/user-attachments/assets/deae749a-8ecb-4faf-ba82-ccc1a46dcdca)
 
 
 
@@ -62,10 +56,7 @@ plt.title('Visitor Distribution Across Age Groups')
 plt.show()
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/025b55c5-73d9-45ca-999a-5671c46a49ef)
-
-![image](https://github.com/user-attachments/assets/09f9ac91-1a7d-44e6-a88e-ccdb44d4d08a)
-
+![image](https://github.com/user-attachments/assets/2ba3c1da-1184-4576-84a0-e102aa731825)
 
 
 ### Result:
